@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+
+//import componentes da página
+import Menu from "../src/components/menu";
+import Topo from "../src/components/topo";
+import Vantagens from "../src/components/vantagens";
+import Somos from "../src/components/somos";
+import Rodape from "../src/components/rodape";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu />
+      <Topo />
+      <Vantagens />
+      <Somos />
+      <Rodape />
     </div>
   );
 }

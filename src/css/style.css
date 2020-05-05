@@ -1,0 +1,376 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-image: url(../imagens/bg2.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* Navbar - Menu */
+.menu-nav {
+  margin-top: 40px;
+  width: 100%;
+  display: block;
+  min-height: 98px;
+}
+.max {
+  max-width: 1150px;
+  height: 96px;
+  margin: 0 auto;
+}
+.max ul {
+  margin: -68px 0 0 0;
+}
+
+.max ul li {
+  color: #ffd0d1;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 15px;
+  float: right;
+  margin: 0 auto;
+}
+.round {
+  width: 150px;
+  border: 1.5px solid #ff9fa2;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.logo {
+  background-image: url(../imagens/logo-social-food.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 82px;
+  margin: 0 auto;
+}
+
+/* Topo */
+
+#topo {
+  width: 100%;
+  display: block;
+  min-height: 600px;
+}
+.conteudo-topo {
+  width: 1150px;
+  height: 566px;
+}
+
+.cells {
+  background-image: url(../imagens/cells.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 502px;
+  float: right;
+  margin-top: 0px;
+  margin-top: -550px;
+  z-index: -5;
+}
+
+.titulo-topo {
+  max-width: 400px;
+  height: 200px;
+  margin: 380px 0 0 10%;
+  position: absolute;
+}
+
+.titulo-topo h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #f5c74a;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.titulo-topo h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 27px;
+}
+
+.bt-topo {
+  width: 220px;
+  border: 1.8px solid #ff82af;
+  border-radius: 100px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fff;
+  color: rgb(255, 56, 56);
+  position: absolute;
+  bottom: 0;
+}
+
+.folha1 {
+  background-image: url(../imagens/folha-direita.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 324px;
+  margin: 0 auto;
+  z-index: 5;
+  position: relative;
+  margin-top: -566px;
+}
+.folha2 {
+  background-image: url(../imagens/folha-esquerda.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 324px;
+  margin: 0 auto;
+  z-index: 6;
+  margin-top: -80px;
+}
+
+/* ============ Vantagens =========== */
+
+#vantagens {
+  width: 100%;
+  background-image: url(../imagens/donuts.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.conteudo-vantagens {
+  padding-top: 140px;
+  max-width: 1150px;
+  min-height: 480px;
+}
+.folha {
+  width: 100%;
+  height: 65px;
+  background-image: url(../imagens/folha.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.bt-vantagens {
+  width: 220px;
+  border: 1.8px solid #c1c1c1;
+  border-radius: 100px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fff;
+  color: #c1c1c1;
+  margin-bottom: 20px;
+}
+/* Vendas */
+.vendas {
+  width: 280px;
+}
+.icon-vendas {
+  width: 230px;
+  height: 64px;
+  margin-bottom: 20px;
+  background-image: url(../imagens/icon-vendas.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.vendas h1 {
+  color: #ff3a44;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.vendas h3 {
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+/* Receba */
+
+.receba {
+  width: 280px;
+}
+.icon-receba {
+  width: 230px;
+  height: 64px;
+  margin-bottom: 20px;
+  background-image: url(../imagens/icon-receba.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.receba h1 {
+  color: #ff5895;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.receba h3 {
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+/* Taxas */
+
+.taxas {
+  width: 280px;
+}
+.icon-taxas {
+  width: 230px;
+  height: 64px;
+  margin-bottom: 20px;
+  background-image: url(../imagens/icon-taxas.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.taxas h1 {
+  color: #ff7800;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.taxas h3 {
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+/* ============ Somos =========== */
+
+#somos {
+  margin-top: 50px;
+  width: 100%;
+  background-image: url(../imagens/bg-somos.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.conteudo-somos {
+  padding: 60px 0 0 20px;
+  max-width: 1150px;
+  min-height: 570px;
+}
+.conteudo-somos h1 {
+  width: 520px;
+  font-family: "Montserrat", sans-serif;
+  color: #f5c74a;
+  font-size: 27px;
+}
+.conteudo-somos h2 {
+  width: 420px;
+  font-family: "Montserrat", sans-serif;
+  color: #9e9e9e;
+  font-size: 15px;
+  float: left;
+}
+
+/* ============ Rodape =========== */
+
+#rodape {
+  margin-top: 50px;
+  width: 100%;
+  background-image: url(../imagens/bg-rodape.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.conteudo-rodape {
+  padding: 60px 0 0 0;
+  max-width: 1150px;
+  min-height: 570px;
+}
+.conteudo-rodape h1 {
+  margin: 0 0 20px 30%;
+  max-width: 420px;
+  font-family: "Montserrat", sans-serif;
+  color: #f5c74a;
+  font-size: 27px;
+}
+.conteudo-rodape ul {
+  margin: 30px 0 220px 30%;
+  font-family: "Montserrat", sans-serif;
+  color: #9e9e9e;
+  font-size: 15px;
+}
+
+.bt-rodape {
+  margin: 0 0 50px 35%;
+  width: 220px;
+  border: 1.8px solid #ff5895;
+  border-radius: 100px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fff;
+  color: #ff5895;
+}
+.copy {
+  color: #9e9e9e;
+  margin: 0 0 0 30%;
+}
+
+/* =========== Mobile First =========== */
+/* =========== Mobile =========== */
+
+@media screen and (max-width: 600px) {
+  .titulo-topo {
+    max-width: 270px;
+    margin-left: 30px;
+    margin-top: 350px;
+    height: 250px;
+  }
+  .titulo-topo h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #f5c74a;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .titulo-topo h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .max ul {
+    width: 100px;
+    float: right;
+    margin: -75px 10px 0 0;
+  }
+
+  .max ul li {
+  }
+  .round {
+    width: 110px;
+    border: 1.5px solid #ff9fa2;
+    border-radius: 100px;
+    text-align: center;
+  }
+  .conteudo-vantagens {
+    padding-top: 30px;
+  }
+  .vendas {
+    width: 100%;
+  }
+  .receba {
+    width: 100%;
+  }
+  .taxas {
+    width: 100%;
+  }
+
+  .folha {
+    margin: 10px 0 10px 0;
+  }
+  #somos {
+    background-image: url(../imagens/bg-somos2.png);
+  }
+}
